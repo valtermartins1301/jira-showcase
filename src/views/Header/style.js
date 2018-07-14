@@ -1,5 +1,5 @@
 const styles = () => ({
-  header: {
+  root: {
     backgroundColor: '#222',
     height: '150px',
     padding: '20px',

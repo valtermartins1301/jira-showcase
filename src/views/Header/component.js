@@ -2,10 +2,12 @@ import React from 'react';
 import injectSheet from 'react-jss';
 import style from './style';
 
+const headerTitle = process.env.REACT_APP_HEADER_TITLE;
+
 export function Header({ classes }) {
   return (
-    <header className={classes.header}>
-      <h1 className={classes.title}>Welcome to React</h1>
+    <header className={classes.root}>
+      <h1 className={classes.title}>{headerTitle}</h1>
     </header>
   );
 }
