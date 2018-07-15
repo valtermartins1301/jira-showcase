@@ -1,12 +1,9 @@
-const styles = () => ({
-  header: {
-    backgroundColor: '#222',
-    height: '150px',
-    padding: '20px',
-    color: 'white',
-  },
-  title: {
-    fontSize: '1.5em',
+const styles = theme => ({
+  root: {
+    padding: 0,
+    backgroundColor: theme.defaultPrimaryColor,
+    height: '100vh',
+    textAlign: 'center',
   },
 });
 

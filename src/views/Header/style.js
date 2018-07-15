@@ -1,12 +1,10 @@
 const styles = () => ({
   root: {
-    backgroundColor: '#222',
-    height: '150px',
-    padding: '20px',
-    color: 'white',
+    padding: '0.2em',
+    color: 'black',
   },
   title: {
-    fontSize: '1.5em',
+    fontSize: '2em',
   },
 });
 

@@ -1,17 +1,16 @@
 import React from 'react';
-import { ThemeProvider } from 'react-jss';
+import injectSheet from 'react-jss';
 import Header from '../Header/component';
+import Showcase from '../Showcase/component';
+import style from './style';
 
-const theme = {
-  textAlign: 'center',
-};
-
-export function App() {
+export function App({ classes }) {
   return (
-    <ThemeProvider theme={theme}>
+    <div className={classes.root}>
       <Header />
-    </ThemeProvider>
+      <Showcase />
+    </div>
   );
 }
 
-export default App;
+export default injectSheet(style)(App);
