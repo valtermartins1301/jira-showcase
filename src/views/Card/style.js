@@ -1,9 +1,8 @@
 const styles = () => ({
   root: {
     position: 'relative',
-    minHeight: '1px',
-    paddingLeft: '15px',
-    paddingRight: '15px',
+    paddingLeft: '1em',
+    paddingRight: '1em',
   },
   '@media (min-width: 992px)': {
     root: {
@@ -13,28 +12,14 @@ const styles = () => ({
   },
   project: {
     background: '#fff',
-    padding: '15px',
-    borderRadius: '6px',
+    borderRadius: '1em',
     boxShadow: '0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)',
     position: 'relative',
-    margin: '20px auto',
-  },
-  thumb: {
-    position: 'absolute',
-    top: '5px',
-    left: '50%',
-    transform: 'translate(-50%)',
-    width: '100%',
-    padding: '15px',
-    transition: 'all 0.2s ease-in-out',
-  },
-  thumbImg: {
-    width: '100%',
-    transition: 'all 0.2s ease-in-out',
-    borderRadius: '6px',
-  },
-  description: {
-    paddingTop: '150%',
+    margin: '1em auto',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    flexFlow: 'row wrap',
   },
 });
 
