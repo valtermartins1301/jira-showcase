@@ -9,6 +9,10 @@ export function Showcase({ classes }) {
       <div className={classes.container}>
         <div className={classes.row}>
           <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
         </div>
       </div>
     </div>

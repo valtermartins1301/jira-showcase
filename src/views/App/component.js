@@ -13,4 +13,8 @@ export function App({ classes }) {
   );
 }
 
+App.defaultProps = {
+  classes: {},
+};
+
 export default injectSheet(style)(App);
