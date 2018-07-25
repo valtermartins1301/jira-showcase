@@ -2,34 +2,30 @@ import React from 'react';
 import injectSheet from 'react-jss';
 import style from './style';
 
-export function Card({ classes }) {
+export function CardDescription({ classes }) {
   return (
     <div className={classes.root}>
       <div className={classes.category}>
-        <span>Ethnic</span>
+        <h2>Nome do projeto</h2>
       </div>
       <div className={classes.title}>
-        <h3>My face not my heart</h3>
+        <h3>Doing</h3>
       </div>
       <div className={classes.subTitle}>
         <p>
-          Description Product tell me how to change playlist height size
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
         </p>
       </div>
       <div className={classes.footer}>
-        <div className={classes.left}>
-          <span className="price">Rp500.000</span>
-        </div>
-        <div className={classes.right}>
-          <i className="zmdi zmdi-shopping-basket" />
-        </div>
+        <span>Exercitation ullamco laboris nisi ut aliquip</span>
       </div>
     </div>
   );
 }
 
-Card.defaultProps = {
+CardDescription.defaultProps = {
   classes: {},
 };
 
-export default injectSheet(style)(Card);
+export default injectSheet(style)(CardDescription);

@@ -1,21 +1,9 @@
 const styles = () => ({
   root: {
-    paddingTop: '150%',
+    padding: '0.5em',
   },
   category: {
     textAlign: 'center',
-    fontSize: '12px',
-    fontWeight: 'bold',
-    padding: '5px',
-    marginBottom: '45px',
-    position: 'relative',
-    transition: 'all 0.2s ease-in-out',
-    '*': {
-      position: 'absolute',
-      top: '50%',
-      left: '50%',
-      transform: 'translate(-50%,-50%)',
-    },
   },
   title: {
     textAlign: 'center',

@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { Header } from './component';
+import { CardDescription } from './component';
 
 it('renders welcome message', () => {
-  const wrapper = shallow(<Header />);
+  const wrapper = shallow(<CardDescription />);
   const welcome = <h1>welcome</h1>;
 
   const rendered = wrapper.first().shallow();
