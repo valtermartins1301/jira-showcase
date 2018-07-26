@@ -6,15 +6,11 @@ import style from './style';
 export function Showcase({ classes }) {
   return (
     <div className={classes.root}>
-      <div className={classes.container}>
-        <div className={classes.row}>
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-        </div>
-      </div>
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
     </div>
   );
 }

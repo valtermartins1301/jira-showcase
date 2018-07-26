@@ -6,19 +6,20 @@ export function CardDescription({ classes }) {
   return (
     <div className={classes.root}>
       <div className={classes.category}>
-        <h2>Nome do projeto</h2>
+        <h2>Project Name</h2>
       </div>
       <div className={classes.title}>
-        <h3>Doing</h3>
+        <h3>Status</h3>
       </div>
       <div className={classes.subTitle}>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-        </p>
-      </div>
-      <div className={classes.footer}>
-        <span>Exercitation ullamco laboris nisi ut aliquip</span>
+        <ul className={classes.list}>
+          <li className={classes.item}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </li>
+          <li className={classes.item}>
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+          </li>
+        </ul>
       </div>
     </div>
   );
