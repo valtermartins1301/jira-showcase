@@ -1,14 +1,7 @@
 const styles = () => ({
   root: {
     position: 'relative',
-    paddingLeft: '1em',
-    paddingRight: '1em',
-  },
-  '@media (min-width: 992px)': {
-    root: {
-      float: 'left',
-      width: '25%',
-    },
+    padding: '0 1em',
   },
   project: {
     background: '#fff',

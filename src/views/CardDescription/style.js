@@ -1,21 +1,24 @@
 const styles = () => ({
   root: {
-    padding: '0.5em',
+    padding: '0.2em',
   },
   category: {
     textAlign: 'center',
+    fontSize: '24px',
+    fontWeight: 'bold',
   },
   title: {
     textAlign: 'center',
-    h3: {
-      fontSize: '20px',
-      fontWeight: 'bold',
-      margin: '15px auto',
-      overflow: 'hidden',
-      whiteSpace: 'nowrap',
-      textOverflow: 'ellipsis',
-      width: '100%',
-    },
+    fontSize: '20px',
+    fontWeight: 'bold',
+    margin: '15px auto',
+  },
+  list: {
+    listStyleType: 'none',
+    textAlign: 'left',
+  },
+  item: {
+    padding: '16px',
   },
 });
 
